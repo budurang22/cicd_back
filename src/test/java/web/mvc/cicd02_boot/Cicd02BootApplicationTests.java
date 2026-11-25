@@ -9,7 +9,7 @@ class Cicd02BootApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("testing");
-        throw new RuntimeException("fail");
+    //    throw new RuntimeException("fail");
     }
 
 }
