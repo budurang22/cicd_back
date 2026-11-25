@@ -1,0 +1,7 @@
+services:
+  app:
+    image: budurang222/myapp:latest
+    container_name: myapp
+    ports:
+      - "8080:8080"
+    restart: always
